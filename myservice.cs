@@ -16,18 +16,18 @@ namespace RESTservice
         {
             int id1 = Int32.Parse(id);
             IDictionary<int, string> numberNames = new Dictionary<int, string>();
-            numberNames.Add(1, "Dhoni"); 
-            numberNames.Add(2, "Allen");
-            numberNames.Add(3, "Carey");
-            numberNames.Add(4, "David");
-            numberNames.Add(5, "Kane");
-            numberNames.Add(6, "Jason");
-            numberNames.Add(7, "Maxi");
-            numberNames.Add(8, "Smith");
-            numberNames.Add(9, "Rashid");
-            numberNames.Add(10, "Bairstow");
-            numberNames.Add(11, "Faben");
-            numberNames.Add(12, "Alex");
+            numberNames.Add(1, "Tush"); 
+            numberNames.Add(2, "Solly");
+            numberNames.Add(3, "Candy");
+            numberNames.Add(4, "Chris");
+            numberNames.Add(5, "William");
+            numberNames.Add(6, "Jerry");
+            numberNames.Add(7, "Amara");
+            numberNames.Add(8, "Alex");
+            numberNames.Add(9, "Sunny");
+            numberNames.Add(10, "Stuart");
+            numberNames.Add(11, "Bell");
+            numberNames.Add(12, "Morgan");
             foreach (KeyValuePair<int, string> kvp in numberNames)
             {
                 if(id1 == kvp.Key)
